@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <br>
+    <form action="/cgi" method="POST">
+        Num1:<br>
+        <input type="text" name="name">
+        <br>
+        Operater:<br>
+        <input type="radio" name="ope" value='+' checked>'+'
+        <br>
+        <input type="radio" name="ope" value="-">'-'
+        <br>
+        <input type="radio" name="ope" value="*">'*'
+        <br>
+        <input type="radio" name="ope" value="/">'/'
+        <br>
+        <input type="radio" name="ope" value="|">'|'
+        <br>
+        <input type="radio" name="ope" value="^">'^'
+        <br>
+        Num2:<br>
+        <input type="text" name="password">
+        <br>
+        <input type="submit" value="submit">
+        <p>如果你点击提交,参数将被提交到cgi</p>
+        <p>Num1和Num2请输入数字，Operator请输入运算符号</p>
+    </form>
+</body>
+
+</html>
