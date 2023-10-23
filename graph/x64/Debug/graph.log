@@ -1,0 +1,46 @@
+﻿  main.cpp
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(300,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(298): message : 在编译 类 模板 成员函数“Matrix::Graph<char,int,true,2147483647>::Graph(const std::vector<char,std::allocator<char>> &)”时
+C:\CoderLife\gitrepo\Linux\graph\main.cpp(57): message : 查看对正在编译的函数 模板 实例化“Matrix::Graph<char,int,true,2147483647>::Graph(const std::vector<char,std::allocator<char>> &)”的引用
+C:\CoderLife\gitrepo\Linux\graph\main.cpp(57): message : 查看对正在编译的 类 模板 实例化“Matrix::Graph<char,int,true,2147483647>”的引用
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(255,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(254): message : 在编译 类 模板 成员函数“void Matrix::Graph<char,int,true,2147483647>::FloydWarShall(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)”时
+C:\CoderLife\gitrepo\Linux\graph\main.cpp(162): message : 查看对正在编译的函数 模板 实例化“void Matrix::Graph<char,int,true,2147483647>::FloydWarShall(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)”的引用
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(211,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(210): message : 在编译 类 模板 成员函数“bool Matrix::Graph<char,int,true,2147483647>::BellmanFord(const V &,std::vector<int,std::allocator<int>> &,std::vector<int,std::allocator<int>> &)”时
+          with
+          [
+              V=char
+          ]
+C:\CoderLife\gitrepo\Linux\graph\main.cpp(108): message : 查看对正在编译的函数 模板 实例化“bool Matrix::Graph<char,int,true,2147483647>::BellmanFord(const V &,std::vector<int,std::allocator<int>> &,std::vector<int,std::allocator<int>> &)”的引用
+          with
+          [
+              V=char
+          ]
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(166,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(165): message : 在编译 类 模板 成员函数“void Matrix::Graph<char,int,true,2147483647>::Dijkstra(const V &,std::vector<int,std::allocator<int>> &,std::vector<int,std::allocator<int>> &)”时
+          with
+          [
+              V=char
+          ]
+C:\CoderLife\gitrepo\Linux\graph\main.cpp(71): message : 查看对正在编译的函数 模板 实例化“void Matrix::Graph<char,int,true,2147483647>::Dijkstra(const V &,std::vector<int,std::allocator<int>> &,std::vector<int,std::allocator<int>> &)”的引用
+          with
+          [
+              V=char
+          ]
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(452,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(450): message : 在编译 类 模板 成员函数“List::Graph<std::string,int,false>::Graph(const std::vector<std::string,std::allocator<std::string>> &)”时
+C:\CoderLife\gitrepo\Linux\graph\main.cpp(9): message : 查看对正在编译的函数 模板 实例化“List::Graph<std::string,int,false>::Graph(const std::vector<std::string,std::allocator<std::string>> &)”的引用
+C:\CoderLife\gitrepo\Linux\graph\main.cpp(9): message : 查看对正在编译的 类 模板 实例化“List::Graph<std::string,int,false>”的引用
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(431,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\graph\Graph.h(424): message : 在编译 类 模板 成员函数“void List::Graph<std::string,int,false>::BFS(const V &)”时
+          with
+          [
+              V=std::string
+          ]
+C:\CoderLife\gitrepo\Linux\graph\main.cpp(15): message : 查看对正在编译的函数 模板 实例化“void List::Graph<std::string,int,false>::BFS(const V &)”的引用
+          with
+          [
+              V=std::string
+          ]
+  graph.vcxproj -> C:\CoderLife\gitrepo\Linux\graph\x64\Debug\graph.exe
