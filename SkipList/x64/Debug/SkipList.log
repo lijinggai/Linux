@@ -1,0 +1,26 @@
+﻿  main.cpp
+C:\CoderLife\gitrepo\Linux\SkipList\SkipList.h(102,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\SkipList\SkipList.h(85): message : 在编译 类 模板 成员函数“bool SkipList<int>::Erase(T)”时
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\SkipList\main.cpp(20): message : 查看对正在编译的函数 模板 实例化“bool SkipList<int>::Erase(T)”的引用
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\SkipList\main.cpp(6): message : 查看对正在编译的 类 模板 实例化“SkipList<int>”的引用
+C:\CoderLife\gitrepo\Linux\SkipList\SkipList.h(28,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\SkipList\SkipList.h(25): message : 在编译 类 模板 成员函数“std::pair<std::vector<SkipNode<T> *,std::allocator<SkipNode<T> *>>,bool> SkipList<T>::FindPervNode(T)”时
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\SkipList\SkipList.h(87): message : 查看对正在编译的函数 模板 实例化“std::pair<std::vector<SkipNode<T> *,std::allocator<SkipNode<T> *>>,bool> SkipList<T>::FindPervNode(T)”的引用
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\SkipList\SkipList.h(83): warning C4715: “SkipList<int>::Insert”: 不是所有的控件路径都返回值
+  SkipList.vcxproj -> C:\CoderLife\gitrepo\Linux\SkipList\x64\Debug\SkipList.exe
