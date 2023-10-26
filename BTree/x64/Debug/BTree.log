@@ -1,0 +1,44 @@
+﻿  main.cpp
+C:\CoderLife\gitrepo\Linux\BTree\BTree.h(67,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\CoderLife\gitrepo\Linux\BTree\BTree.h(66): message : 在编译 类 模板 成员函数“void BTree<int,3>::_Insert(T,Node<T,3> *,Node<T,3> *)”时
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\BTree\BTree.h(108): message : 查看对正在编译的函数 模板 实例化“void BTree<int,3>::_Insert(T,Node<T,3> *,Node<T,3> *)”的引用
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\BTree\main.cpp(5): message : 查看对正在编译的 类 模板 实例化“BTree<int,3>”的引用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(256,61): warning C4244: “初始化”: 从“_Ty”转换到“_Ty2”，可能丢失数据
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+C:\CoderLife\gitrepo\Linux\BTree\BTree.h(56): message : 查看对正在编译的函数 模板 实例化“std::pair<Node<T,3> *,int>::pair<Node<T,3>*,unsigned __int64,0>(std::pair<Node<T,3> *,unsigned __int64> &&) noexcept”的引用
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\BTree\BTree.h(56): message : 查看对正在编译的函数 模板 实例化“std::pair<Node<T,3> *,int>::pair<Node<T,3>*,unsigned __int64,0>(std::pair<Node<T,3> *,unsigned __int64> &&) noexcept”的引用
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\BTree\BTree.h(40): message : 在编译 类 模板 成员函数“std::pair<Node<T,3> *,int> BTree<T,3>::Find(T)”时
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\BTree\BTree.h(101): message : 查看对正在编译的函数 模板 实例化“std::pair<Node<T,3> *,int> BTree<T,3>::Find(T)”的引用
+          with
+          [
+              T=int
+          ]
+C:\CoderLife\gitrepo\Linux\BTree\BTree.h(178): warning C4715: “BTree<int,3>::Insert”: 不是所有的控件路径都返回值
+  BTree.vcxproj -> C:\CoderLife\gitrepo\Linux\BTree\x64\Debug\BTree.exe
